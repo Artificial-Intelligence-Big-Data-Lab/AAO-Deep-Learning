@@ -1,0 +1,38 @@
+site_name: AIBD Documentation
+
+nav:
+    - Home: index.md
+
+    - Esempi: 
+        - Preprocessing per CNN: example/prep_cnn.md
+        - Importare datasets su Multicharts: example/import_datasets_multicharts.md
+
+    - Classi:
+        - Gaf: classes/gaf.md
+        - ImagesMerger: classes/images_merger.md
+        - Market: classes/market.md
+        - Mood: classes/mood.md
+        - ResultsHandler: classes/results_handler.md
+        - VggHandler: classes/vgg_handler.md
+
+    - Multicharts Python Framework: 
+        - Hystorical: multicharts_fw/hystorical.md
+        - Trading_system: multicharts_fw/trading_system.md
+        - Trading System Monodirectional: multicharts_fw/trading_system_monodirectional.md
+        - Test: multicharts_fw/test.md
+    - Utils:
+        - Convertire CSV to MySQL: utils/conv_csv_to_mysql.md
+
+theme:
+    name: readthedocs
+    highlightjs: true
+    hljs_languages:
+        - php
+        - js
+        - python
+        - css
+        - markdown
+        - c
+        - c++
+        - bash
+        
